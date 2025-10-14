@@ -788,3 +788,7 @@ z-index: 10;
 .horizontal-slide img{
   max-height: 70vh;  
 }
+
+.nav-button.prev img {
+  transform: rotate(180deg);
+}
