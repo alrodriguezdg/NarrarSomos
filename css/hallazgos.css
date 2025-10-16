@@ -9,11 +9,6 @@
 }
 
 .hallazgos .p {
-  position: absolute;
-  width: 62.99%;
-  height: 0;
-  top: 12.03%;
-  left: 24.17%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -26,11 +21,6 @@
 }
 
 .hallazgos .text-wrapper-3 {
-  position: absolute;
-  width: 55.14%;
-  height: 0;
-  top: 12.54%;
-  left: 24.17%;
   font-family: "Lilita One", Helvetica;
   font-weight: 400;
   color: #f9f2e8;
@@ -40,11 +30,6 @@
 }
 
 .hallazgos .algunos-escriben {
-  position: absolute;
-  width: 56.18%;
-  height: 2.03%;
-  top: 13.27%;
-  left: 24.17%;
   font-family: "Manjari", Helvetica;
   font-weight: 400;
   color: #f9f2e8;
@@ -67,11 +52,8 @@
 }
 
 .hallazgos .la-principal {
-  position: absolute;
-  width: 56.18%;
-  height: 0;
-  top: 19.95%;
-  left: 24.17%;
+  max-width: 900px;
+  margin: 100px auto;
   font-family: "Manjari", Helvetica;
   font-weight: 400;
   color: #f9f2e8;
@@ -81,11 +63,8 @@
 }
 
 .hallazgos .group-3 {
-  position: absolute;
-  top: 3359px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1372px;
+  transform: translateX(0);
+  width: 100%;
   height: 698px;
 }
 
@@ -207,14 +186,13 @@
 .hallazgos .group-6 {
   position: absolute;
   width: 42.71%;
-  height: 71.27%;
   top: 28.73%;
   left: 25.36%;
 }
 
 .hallazgos .text-wrapper-10 {
   position: absolute;
-  width: 27.19%;
+  width: 31.19%;
   height: 13.47%;
   top: 32.23%;
   left: 64.94%;
@@ -348,7 +326,7 @@
   width: 21.65%;
   height: 13.04%;
   top: 70.49%;
-  left: 35.86%;
+  left: 33.86%;
   font-family: "Manjari", Helvetica;
   font-weight: 400;
   font-size: 45px;
@@ -472,11 +450,6 @@
 }
 
 .hallazgos .text-wrapper-20 {
-  position: absolute;
-  width: 78.46%;
-  height: 47.73%;
-  top: 22.73%;
-  left: 5.27%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -485,16 +458,8 @@
   color: #2f324b;
   font-size: 25px;
   letter-spacing: 0;
-  line-height: 35px;
   white-space: nowrap;
-}
-
-.hallazgos .mouse-pointer-click {
-  position: absolute;
-  width: 7.47%;
-  height: 77.27%;
-  top: 22.73%;
-  left: 86.37%;
+  margin: 0;
 }
 
 .hallazgos .text-wrapper-21 {
@@ -3175,11 +3140,6 @@
 }
 
 .hallazgos .text-wrapper-136 {
-  position: absolute;
-  width: 54.58%;
-  height: 0;
-  top: 1%;
-  left: 22.71%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3195,11 +3155,7 @@
 
 
 .hallazgos .text-wrapper-140 {
-  position: absolute;
-  width: 63.40%;
-  height: auto;
-  top: 1.5%;
-  left: 18.26%;
+  max-width: 1200px;
   font-family: "Lilita One", Helvetica;
   font-weight: 400;
   color: #f9f2e8;
@@ -3240,27 +3196,16 @@
 }
 
 .hallazgos .group-21 {
-  position: absolute;
-  top: 400px;
-  left: 200px;
-  width: 723px;
-  height: 603px;
+  max-width: 723px;
 }
 
 .hallazgos .group-22 {
-  position: absolute;
-  top: 400px;
-  right: 300px;
-  width: 485px;
-  height: 681px;
+  max-width: 485px;
 }
 
 .hallazgos .centro-atico-paragraph {
-  position: absolute;
-  width: 56.18%;
-  height: 0;
-  top: 1250px;
-  left: 24.17%;
+  max-width: 900px;
+  margin: 100px auto;
   font-family: "Manjari", Helvetica;
   font-weight: 400;
   color: #f9f2e8;
@@ -3279,33 +3224,30 @@
 }
 
 .hallazgos .text-wrapper-144 {
-  position: absolute;
-  top: 1913px;
-  left: 348px;
-  width: 1030px;
+  max-width: 1030px;
   font-family: "Manjari", Helvetica;
   font-weight: 400;
   color: #6881a4;
   font-size: 60px;
   letter-spacing: 0;
   line-height: 80px;
+  border-left: 10px solid #6881a4;
+  padding-left: 30px;
 }
 
-.hallazgos .rectangle-15 {
-  position: absolute;
-  top: 1896px;
-  left: 296px;
-  width: 15px;
-  height: 434px;
-  background-color: #6881a4;
+.hallazgos .blue-light-background {
+  background-color: #deedf0;
+}
+
+.hallazgos .container.blue-light-background{
+  min-height: auto;
+  padding: 100px 20px;
 }
 
 .hallazgos .vector-109 {
   position: absolute;
-  width: 30.28%;
-  height: 2.55%;
-  top: 7.64%;
-  left: -15.14%;
+  top: -200px;
+  left: -100px;
 }
 
 .hallazgos .rectangle-16 {

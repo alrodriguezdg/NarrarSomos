@@ -748,6 +748,13 @@ background-color: #494C7F;
 border-radius: 50%;
 }
 
+.container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 .wrapper{
 max-width: 1200px;
 width: 100%;
@@ -755,6 +762,17 @@ padding: 60px 20px;
 margin: 0 auto;
 display: block;
 z-index: 10;
+}
+
+.image-group{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+  .image-group{
+    flex-direction: column;
+  }
 }
 
 .horizontal-scroll-section {
@@ -791,4 +809,19 @@ z-index: 10;
 
 .nav-button.prev img {
   transform: rotate(180deg);
+}
+
+.interactive-action{
+  position: relative;
+  display: flex;
+  background-color: #f9f2e8;
+  max-width: 430px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin: 80px auto;
+}
+
+.interactive-action .mouse-pointer-click{
+  position: absolute; 
+  right: 20px;
 }
