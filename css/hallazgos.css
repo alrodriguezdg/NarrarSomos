@@ -20,6 +20,11 @@
   line-height: 35px;
 }
 
+.hallazgos .p{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .hallazgos .text-wrapper-3 {
   font-family: "Lilita One", Helvetica;
   font-weight: 400;
@@ -27,6 +32,8 @@
   font-size: 96px;
   letter-spacing: 0;
   line-height: 100px;
+  max-width: 900px;
+  margin: 100px auto;
 }
 
 .hallazgos .algunos-escriben {
@@ -36,6 +43,8 @@
   font-size: 30px;
   letter-spacing: 0;
   line-height: 45px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .hallazgos .span {
@@ -3588,7 +3597,7 @@
   border-radius: 10px;
   text-align: center;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1400px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   text-align: left;
   color: #fff;
